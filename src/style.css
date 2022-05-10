@@ -1,1 +1,9 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  display: flex;
+  align-items: center;
+  font-family: cursive;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 500px;
+}

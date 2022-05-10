@@ -22,8 +22,6 @@ function generarExcusa() {
   )} ${arregloRandom(when)}`;
 }
 
-console.log(excuse);
-
 window.onload = function() {
   let excusa = document.querySelector("#excuse");
   excusa.innerHTML = generarExcusa();
